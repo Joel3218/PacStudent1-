@@ -6,17 +6,20 @@ public class SpawnNodes : MonoBehaviour
 {
 
     int num = 25;
+
+    public float currentOffset;
     public float offset = 0.3f;
     // Start is called before the first frame update
     void Start()
     {
         if (gameObject.name == "Node")
         {
+            currentOffset = offset;
             for (int i = 0; i < num; i++)
             {
                 //cloning the node
-                GameObject clone = Instantiate(gameObject, new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
-
+                GameObject clone = Instantiate(gameObject, new Vector3(transform.position.x + currentOffset, transform.position.y, 0), Quaternion.identity);
+                currentOffset = offset;
             }
         }
     }
