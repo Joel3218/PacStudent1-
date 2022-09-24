@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnNodes : MonoBehaviour
+public class SpawnNodes1 : MonoBehaviour
 {
 
     int num = 25;
@@ -19,7 +19,7 @@ public class SpawnNodes : MonoBehaviour
             {
                 //cloning the node
                 GameObject clone = Instantiate(gameObject, new Vector3(transform.position.x + currentOffset, transform.position.y, 0), Quaternion.identity);
-                currentOffset += offset;
+                currentOffset = offset;
             }
         }
     }
@@ -27,6 +27,6 @@ public class SpawnNodes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
