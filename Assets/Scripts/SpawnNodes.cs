@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpawnNodes : MonoBehaviour
 {
 
-    int num = 25;
+    int num = 28;
 
     public float currentOffset;
     public float offset = 0.3f;
@@ -18,7 +18,7 @@ public class SpawnNodes : MonoBehaviour
             for (int i = 0; i < num; i++)
             {
                 //cloning the node
-                GameObject clone = Instantiate(gameObject, new Vector3(transform.position.x + currentOffset, transform.position.y, 0), Quaternion.identity);
+                GameObject clone = Instantiate(gameObject, new Vector3(transform.position.x, transform.position.y + currentOffset, 0), Quaternion.identity);
                 currentOffset += offset;
             }
         }
