@@ -90,7 +90,7 @@ public class NodeController : MonoBehaviour
         
     }
 
-    public GameObject getNodeFromDirection(string direction)
+    public GameObject GetNodeFromDirection(string direction)
     {
         if (direction == "left" && moveLeft)
         {
