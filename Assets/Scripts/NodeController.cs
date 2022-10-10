@@ -100,11 +100,11 @@ public class NodeController : MonoBehaviour
         {
             return nodeRight;
         }
-        if (direction == "Up" && moveUp)
+        if (direction == "up" && moveUp)
         {
             return nodeUp;
         }
-        if (direction == "Down" && moveDown)
+        if (direction == "down" && moveDown)
         {
             return nodeDown;
         }

@@ -23,7 +23,20 @@ public class MovementController : MonoBehaviour
 
         transform.position = Vector2.MoveTowards(transform.position, Node.transform.position, speed * Time.deltaTime);
 
-        if (transform.position.x == Node.transform.position.x && transform.position.y == Node.transform.position.y)
+        bool reverseDirection = false;
+        if (
+            (direction == "left" && lastMovingDirection == "right")
+            || (direction == "right" && lastMovingDirection == "left")
+            || (direction == "up" && lastMovingDirection == "down")
+            || (direction == "down" && lastMovingDirection == "up")
+            )
+            {
+            reverseDirection = true;
+            }
+
+        
+
+        if ((transform.position.x == Node.transform.position.x && transform.position.y == Node.transform.position.y) || reverseDirection)
         {
             GameObject newNode = currentNodeController.GetNodeFromDirection(direction);
 
