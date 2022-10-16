@@ -27,6 +27,7 @@ public class NodeController : MonoBehaviour
 
     public GameManager gameManager;
     public bool isGhostStart = false;
+    public bool isWarpNode = false;
 
     // Start is called before the first frame update
     void Awake()

@@ -37,9 +37,13 @@ public class EnemyController : MonoBehaviour
 
     public bool isfrighten = false;
 
+    public GameObject[] scatterNodes;
+    public int scatterNodesIndex;
+
     // Start is called before the first frame update
     void Awake()
     {
+        scatterNodesIndex = 0;
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
           
         movementController = GetComponent<MovementController>();
@@ -81,6 +85,15 @@ public class EnemyController : MonoBehaviour
             ghostNodeState = GhostNodeStatesEnum.respawning;
             testingRespawn = false;
         }
+
+        if (movementController.Node.GetComponent<NodeController>().isWarpNode)
+        {
+            movementController.SetSpeed(1);
+        }
+        else
+        {
+            movementController.SetSpeed(3);
+        }
     }
 
     public void ReachedCenter(NodeController nodeController)
@@ -90,11 +103,24 @@ public class EnemyController : MonoBehaviour
             //scatter mode
             if (gameManager.ghostMode == GameManager.GhostMode.scatter)
             {
+               
 
+                if (transform.position.x == scatterNodes[scatterNodesIndex].transform.position.x && transform.position.y == scatterNodes[scatterNodesIndex].transform.position.y)
+                {
+                    scatterNodesIndex++;
+
+                    if (scatterNodesIndex == scatterNodes.Length - 1)
+                    {
+                        scatterNodesIndex = 0;
+                    }
+                }
+
+                string direction = ClosestDirection(scatterNodes[scatterNodesIndex].transform.position);
+
+                movementController.SetDirection(direction);
             }
-            
-
-            
+                   
+                    
             else if (isfrighten)
             {
 
