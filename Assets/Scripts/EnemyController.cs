@@ -17,7 +17,7 @@ public class EnemyController : MonoBehaviour
 
     public GhostNodeStatesEnum ghostNodeState;
 
-    public enum GhostType { red, blue, pink, orange}
+    public enum GhostType { red, blue, pink, orange }
 
     public GhostType ghostType;
 
@@ -45,16 +45,16 @@ public class EnemyController : MonoBehaviour
     {
         scatterNodesIndex = 0;
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
-          
+
         movementController = GetComponent<MovementController>();
-       if (ghostType == GhostType.red)
+        if (ghostType == GhostType.red)
         {
             ghostNodeState = GhostNodeStatesEnum.startNode;
             respawn = GhostNodeStatesEnum.centerNode;
             startNode = ghostNodeStart;
             leaveHome = true;
         }
-       else if (ghostType == GhostType.pink)
+        else if (ghostType == GhostType.pink)
         {
             ghostNodeState = GhostNodeStatesEnum.centerNode;
             startNode = ghostNodeCenter;
@@ -92,35 +92,23 @@ public class EnemyController : MonoBehaviour
         }
         else
         {
-            movementController.SetSpeed(3);
+            movementController.SetSpeed(1);
         }
     }
 
     public void ReachedCenter(NodeController nodeController)
     {
         if (ghostNodeState == GhostNodeStatesEnum.movingInNodes)
-        {  
+        {
             //scatter mode
             if (gameManager.ghostMode == GameManager.GhostMode.scatter)
             {
+
+                GhostScatterDirection();
                
-
-                if (transform.position.x == scatterNodes[scatterNodesIndex].transform.position.x && transform.position.y == scatterNodes[scatterNodesIndex].transform.position.y)
-                {
-                    scatterNodesIndex++;
-
-                    if (scatterNodesIndex == scatterNodes.Length - 1)
-                    {
-                        scatterNodesIndex = 0;
-                    }
-                }
-
-                string direction = ClosestDirection(scatterNodes[scatterNodesIndex].transform.position);
-
-                movementController.SetDirection(direction);
             }
-                   
-                    
+
+
             else if (isfrighten)
             {
 
@@ -132,13 +120,25 @@ public class EnemyController : MonoBehaviour
                 {
                     RedGhostDirection();
                 }
+                else if (ghostType == GhostType.pink)
+                {
+                    PinkGhostDirection();
+                }
+                else if (ghostType == GhostType.blue)
+                {
+                    BlueGhostDirection();
+                }
+                else if (ghostType == GhostType.orange)
+                {
+                    OrangeGhostDirection();
+                }
             }
         }
-           
+
         else if (ghostNodeState == GhostNodeStatesEnum.respawning)
         {
             string direction = "";
-            
+
             //move center from start node
             if (transform.position.x == ghostNodeStart.transform.position.x && transform.position.y == ghostNodeStart.transform.position.y)
             {
@@ -170,9 +170,9 @@ public class EnemyController : MonoBehaviour
             //find starting node
             else
             {
-               direction = ClosestDirection(ghostNodeStart.transform.position);
+                direction = ClosestDirection(ghostNodeStart.transform.position);
             }
-           
+
             movementController.SetDirection(direction);
         }
         else
@@ -207,6 +207,22 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+    void GhostScatterDirection()
+    {
+        if (transform.position.x == scatterNodes[scatterNodesIndex].transform.position.x && transform.position.y == scatterNodes[scatterNodesIndex].transform.position.y)
+        {
+            scatterNodesIndex++;
+
+            if (scatterNodesIndex == scatterNodes.Length - 1)
+            {
+                scatterNodesIndex = 0;
+            }
+        }
+
+        string direction = ClosestDirection(scatterNodes[scatterNodesIndex].transform.position);
+
+        movementController.SetDirection(direction);
+    }
     void RedGhostDirection()
     {
         string direction = ClosestDirection(gameManager.pacStudent.transform.position);
@@ -215,17 +231,81 @@ public class EnemyController : MonoBehaviour
 
     void PinkGhostDirection()
     {
+        string pacStudentDirection = gameManager.pacStudent.GetComponent<MovementController>().lastMovingDirection;
+        float distanceInNodes = 0.34f;
 
+        Vector2 target = gameManager.pacStudent.transform.position;
+        if (pacStudentDirection == "left")
+        {
+            target.x -= distanceInNodes * 2;
+        }
+        else if (pacStudentDirection == "right")
+        {
+            target.x += distanceInNodes * 2;
+        }
+        else if (pacStudentDirection == "up")
+        {
+            target.y += distanceInNodes * 2;
+        }
+        else if (pacStudentDirection == "down")
+        {
+            target.y -= distanceInNodes * 2;
+        }
+        string direction = ClosestDirection(target);
+        movementController.SetDirection(direction);
     }
+
 
     void BlueGhostDirection()
     {
+        string pacStudentDirection = gameManager.pacStudent.GetComponent<MovementController>().lastMovingDirection;
+        float distanceInNodes = 0.34f;
 
+        Vector2 target = gameManager.pacStudent.transform.position;
+        if (pacStudentDirection == "left")
+        {
+            target.x -= distanceInNodes * 2;
+        }
+        else if (pacStudentDirection == "right")
+        {
+            target.x += distanceInNodes * 2;
+        }
+        else if (pacStudentDirection == "up")
+        {
+            target.y += distanceInNodes * 2;
+        }
+        else if (pacStudentDirection == "down")
+        {
+            target.y -= distanceInNodes * 2;
+        }
+
+        GameObject redGhost = gameManager.redGhost;
+        float aDistance = target.x - redGhost.transform.position.x;
+        float bDistance = target.y - redGhost.transform.position.y;
+
+        Vector2 blueTar = new Vector2(target.x + aDistance, target.y + bDistance);
+        string direction = ClosestDirection(blueTar);
+        movementController.SetDirection(direction);
     }
 
     void OrangeGhostDirection()
     {
+        float distance = Vector2.Distance(gameManager.pacStudent.transform.position, transform.position);
+        float distanceInNodes = 0.34f;
 
+        if (distance < 0)
+        {
+            distance *= -1;
+        }
+
+        if (distance <= distanceInNodes * 8)
+        {
+            RedGhostDirection();
+        }
+        else
+        {
+            GhostScatterDirection();
+        }
     }
 
     string ClosestDirection(Vector2 target)
@@ -293,9 +373,10 @@ public class EnemyController : MonoBehaviour
             }
         }
         return newDirection;
-        
+
     }
 }
+
 
 
 
