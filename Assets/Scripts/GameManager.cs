@@ -17,10 +17,25 @@ public class GameManager : MonoBehaviour
     public int score;
     public Text scoreText;
 
+    public GameObject ghostNodeLeft;
+    public GameObject ghostNodeRight;
+    public GameObject ghostNodeStart;
+    public GameObject ghostNodeCenter;
+
+    public enum GhostMode
+    {
+        chase, scatter
+    }
+
+    public GhostMode ghostMode;
+
 
     // Start is called before the first frame update
     void Awake()
     {
+        ghostMode = GhostMode.chase;
+        ghostNodeStart.GetComponent<NodeController>().isGhostStart = true;
+        pacStudent = GameObject.Find("Player");
         score = 0;
         currentEating = 0;
         siren.Play();

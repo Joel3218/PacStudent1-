@@ -26,11 +26,17 @@ public class EnemyController : MonoBehaviour
     public GameObject ghostNodeStart;
     public GameObject ghostNodeCenter;
 
+    public GhostNodeStatesEnum respawn;
+
     public MovementController movementController;
     public GameObject startNode;
     public bool leaveHome = false;
 
     public GameManager gameManager;
+    public bool testingRespawn = false;
+
+    public bool isfrighten = false;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -40,44 +46,108 @@ public class EnemyController : MonoBehaviour
        if (ghostType == GhostType.red)
         {
             ghostNodeState = GhostNodeStatesEnum.startNode;
+            respawn = GhostNodeStatesEnum.centerNode;
             startNode = ghostNodeStart;
+            leaveHome = true;
         }
        else if (ghostType == GhostType.pink)
         {
             ghostNodeState = GhostNodeStatesEnum.centerNode;
             startNode = ghostNodeCenter;
+            respawn = GhostNodeStatesEnum.centerNode;
         }
         else if (ghostType == GhostType.blue)
         {
             ghostNodeState = GhostNodeStatesEnum.leftNode;
             startNode = ghostNodeLeft;
+            respawn = GhostNodeStatesEnum.leftNode;
         }
         else if (ghostType == GhostType.orange)
         {
             ghostNodeState = GhostNodeStatesEnum.rightNode;
             startNode = ghostNodeRight;
+            respawn = GhostNodeStatesEnum.rightNode;
         }
         movementController.Node = startNode;
+        transform.position = startNode.transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (testingRespawn == true)
+        {
+            leaveHome = false;
+            ghostNodeState = GhostNodeStatesEnum.respawning;
+            testingRespawn = false;
+        }
     }
 
     public void ReachedCenter(NodeController nodeController)
     {
         if (ghostNodeState == GhostNodeStatesEnum.movingInNodes)
-        {
-            if (ghostType == GhostType.red)
+        {  
+            //scatter mode
+            if (gameManager.ghostMode == GameManager.GhostMode.scatter)
             {
-                RedGhostDirection();
+
+            }
+            
+
+            
+            else if (isfrighten)
+            {
+
+            }
+            //chase mode
+            else
+            {
+                if (ghostType == GhostType.red)
+                {
+                    RedGhostDirection();
+                }
             }
         }
+           
         else if (ghostNodeState == GhostNodeStatesEnum.respawning)
         {
+            string direction = "";
+            
+            //move center from start node
+            if (transform.position.x == ghostNodeStart.transform.position.x && transform.position.y == ghostNodeStart.transform.position.y)
+            {
+                direction = "down";
+            }
+            //move to left or right node from center
+            else if (transform.position.x == ghostNodeCenter.transform.position.x && transform.position.y == ghostNodeCenter.transform.position.y)
+            {
+                if (respawn == GhostNodeStatesEnum.centerNode)
+                {
+                    ghostNodeState = respawn;
+                }
+                else if (respawn == GhostNodeStatesEnum.leftNode)
+                {
+                    direction = "left";
 
+                }
+                else if (respawn == GhostNodeStatesEnum.rightNode)
+                {
+                    direction = "right";
+                }
+            }
+            //leave home once respawned
+            else if ((transform.position.x == ghostNodeLeft.transform.position.x && transform.position.y == ghostNodeLeft.transform.position.y)
+                || (transform.position.x == ghostNodeRight.transform.position.x && transform.position.y == ghostNodeRight.transform.position.y))
+            {
+                ghostNodeState = respawn;
+            }
+            //find starting node
+            else
+            {
+               direction = ClosestDirection(ghostNodeStart.transform.position);
+            }
+           
+            movementController.SetDirection(direction);
         }
         else
         {

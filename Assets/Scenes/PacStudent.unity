@@ -293,6 +293,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &21110578
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,6 +380,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &22770467
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,6 +467,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &27965254
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,6 +554,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &28053799
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,6 +641,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &33991941
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,6 +812,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &38677341
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,6 +899,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &40767745
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,6 +986,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &41244188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,6 +1073,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &46645057
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,6 +1160,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &49575721
 GameObject:
   m_ObjectHideFlags: 0
@@ -1405,6 +1415,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &62598169
 GameObject:
   m_ObjectHideFlags: 0
@@ -1491,6 +1502,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &64699309
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,6 +1589,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &75286037
 GameObject:
   m_ObjectHideFlags: 0
@@ -1747,6 +1760,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &81647567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1833,6 +1847,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &81652071
 GameObject:
   m_ObjectHideFlags: 0
@@ -2255,6 +2270,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &101731357
 GameObject:
   m_ObjectHideFlags: 0
@@ -2341,6 +2357,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &105782664
 GameObject:
   m_ObjectHideFlags: 0
@@ -2847,6 +2864,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &119695194
 GameObject:
   m_ObjectHideFlags: 0
@@ -3017,6 +3035,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &128157968
 GameObject:
   m_ObjectHideFlags: 0
@@ -3187,6 +3206,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &132838388
 GameObject:
   m_ObjectHideFlags: 0
@@ -3273,6 +3293,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &133875373
 GameObject:
   m_ObjectHideFlags: 0
@@ -3359,6 +3380,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &142559984
 GameObject:
   m_ObjectHideFlags: 0
@@ -3865,6 +3887,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &172260154
 GameObject:
   m_ObjectHideFlags: 0
@@ -3951,6 +3974,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &172283724
 GameObject:
   m_ObjectHideFlags: 0
@@ -4037,6 +4061,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &172586332
 GameObject:
   m_ObjectHideFlags: 0
@@ -4123,6 +4148,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &172604598
 GameObject:
   m_ObjectHideFlags: 0
@@ -4377,6 +4403,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &184051568
 GameObject:
   m_ObjectHideFlags: 0
@@ -4547,6 +4574,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &190137915
 GameObject:
   m_ObjectHideFlags: 0
@@ -4633,6 +4661,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &190671284
 GameObject:
   m_ObjectHideFlags: 0
@@ -4719,6 +4748,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &199156748
 GameObject:
   m_ObjectHideFlags: 0
@@ -5309,6 +5339,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &216467265
 GameObject:
   m_ObjectHideFlags: 0
@@ -5395,6 +5426,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &220400393
 GameObject:
   m_ObjectHideFlags: 0
@@ -5565,6 +5597,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &227563951
 GameObject:
   m_ObjectHideFlags: 0
@@ -5651,6 +5684,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &231494862
 GameObject:
   m_ObjectHideFlags: 0
@@ -5737,6 +5771,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &231951540
 GameObject:
   m_ObjectHideFlags: 0
@@ -5991,6 +6026,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &243198420
 GameObject:
   m_ObjectHideFlags: 0
@@ -6245,6 +6281,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &253256863
 GameObject:
   m_ObjectHideFlags: 0
@@ -6331,6 +6368,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &258074583
 GameObject:
   m_ObjectHideFlags: 0
@@ -6417,6 +6455,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &258146229
 GameObject:
   m_ObjectHideFlags: 0
@@ -6503,6 +6542,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &262377136
 GameObject:
   m_ObjectHideFlags: 0
@@ -6589,6 +6629,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &264324630
 GameObject:
   m_ObjectHideFlags: 0
@@ -7094,6 +7135,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &279963200
 GameObject:
   m_ObjectHideFlags: 0
@@ -7180,6 +7222,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &281616023
 GameObject:
   m_ObjectHideFlags: 0
@@ -7434,6 +7477,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &284187579
 GameObject:
   m_ObjectHideFlags: 0
@@ -7772,6 +7816,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &305513342
 GameObject:
   m_ObjectHideFlags: 0
@@ -7942,6 +7987,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &323302503
 GameObject:
   m_ObjectHideFlags: 0
@@ -8130,6 +8176,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &337821878
 GameObject:
   m_ObjectHideFlags: 0
@@ -8300,6 +8347,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &362901292
 GameObject:
   m_ObjectHideFlags: 0
@@ -8386,6 +8434,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &362929382
 GameObject:
   m_ObjectHideFlags: 0
@@ -8472,6 +8521,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &364390377
 GameObject:
   m_ObjectHideFlags: 0
@@ -8978,6 +9028,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &375878660
 GameObject:
   m_ObjectHideFlags: 0
@@ -9337,6 +9388,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &393973581
 GameObject:
   m_ObjectHideFlags: 0
@@ -9422,6 +9474,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &394169074
 GameObject:
   m_ObjectHideFlags: 0
@@ -9508,6 +9561,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &396286677
 GameObject:
   m_ObjectHideFlags: 0
@@ -9678,6 +9732,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &401799005
 GameObject:
   m_ObjectHideFlags: 0
@@ -9764,6 +9819,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &407666351
 GameObject:
   m_ObjectHideFlags: 0
@@ -9850,6 +9906,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &412667307
 GameObject:
   m_ObjectHideFlags: 0
@@ -9936,6 +9993,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &413143858
 GameObject:
   m_ObjectHideFlags: 0
@@ -10022,6 +10080,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &416285699
 GameObject:
   m_ObjectHideFlags: 0
@@ -10360,6 +10419,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &431458812
 GameObject:
   m_ObjectHideFlags: 0
@@ -10614,6 +10674,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &440445461
 GameObject:
   m_ObjectHideFlags: 0
@@ -10868,6 +10929,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &442065236
 GameObject:
   m_ObjectHideFlags: 0
@@ -11038,6 +11100,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &455321198
 GameObject:
   m_ObjectHideFlags: 0
@@ -11124,6 +11187,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &457444866
 GameObject:
   m_ObjectHideFlags: 0
@@ -11294,6 +11358,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &468187270
 GameObject:
   m_ObjectHideFlags: 0
@@ -11548,6 +11613,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &469865780
 GameObject:
   m_ObjectHideFlags: 0
@@ -11802,6 +11868,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &479420662
 GameObject:
   m_ObjectHideFlags: 0
@@ -11972,6 +12039,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &484616766
 GameObject:
   m_ObjectHideFlags: 0
@@ -12058,6 +12126,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &484933509
 GameObject:
   m_ObjectHideFlags: 0
@@ -12228,6 +12297,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &487892417
 GameObject:
   m_ObjectHideFlags: 0
@@ -12314,6 +12384,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &488241392
 GameObject:
   m_ObjectHideFlags: 0
@@ -12400,6 +12471,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &493839715
 GameObject:
   m_ObjectHideFlags: 0
@@ -12486,6 +12558,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &498255470
 GameObject:
   m_ObjectHideFlags: 0
@@ -12656,6 +12729,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &507683592
 GameObject:
   m_ObjectHideFlags: 0
@@ -12826,6 +12900,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &517275797
 GameObject:
   m_ObjectHideFlags: 0
@@ -13164,6 +13239,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &530307920
 GameObject:
   m_ObjectHideFlags: 0
@@ -13418,6 +13494,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &546453589
 GameObject:
   m_ObjectHideFlags: 0
@@ -13504,6 +13581,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &551706623
 GameObject:
   m_ObjectHideFlags: 0
@@ -13590,6 +13668,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &558848486
 GameObject:
   m_ObjectHideFlags: 0
@@ -13676,6 +13755,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &562649927
 GameObject:
   m_ObjectHideFlags: 0
@@ -13846,6 +13926,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &569402272
 GameObject:
   m_ObjectHideFlags: 0
@@ -14016,6 +14097,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &572343412
 GameObject:
   m_ObjectHideFlags: 0
@@ -14270,6 +14352,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &592505512
 GameObject:
   m_ObjectHideFlags: 0
@@ -14356,6 +14439,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &594933059
 GameObject:
   m_ObjectHideFlags: 0
@@ -14610,6 +14694,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &614766862
 GameObject:
   m_ObjectHideFlags: 0
@@ -14696,6 +14781,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &614841951
 GameObject:
   m_ObjectHideFlags: 0
@@ -14898,6 +14984,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &620532056
 GameObject:
   m_ObjectHideFlags: 0
@@ -15068,6 +15155,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &624037238
 GameObject:
   m_ObjectHideFlags: 0
@@ -15238,6 +15326,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &631062594
 GameObject:
   m_ObjectHideFlags: 0
@@ -15660,6 +15749,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &647112278
 GameObject:
   m_ObjectHideFlags: 0
@@ -15914,6 +16004,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &650597311
 GameObject:
   m_ObjectHideFlags: 0
@@ -16142,6 +16233,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!61 &661300452
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16338,6 +16430,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &665177102
 GameObject:
   m_ObjectHideFlags: 0
@@ -16424,6 +16517,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &666503185
 GameObject:
   m_ObjectHideFlags: 0
@@ -16510,6 +16604,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &668063979
 GameObject:
   m_ObjectHideFlags: 0
@@ -16596,6 +16691,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &670623868
 GameObject:
   m_ObjectHideFlags: 0
@@ -16850,6 +16946,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &681232858
 GameObject:
   m_ObjectHideFlags: 0
@@ -17104,6 +17201,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &686358935
 GameObject:
   m_ObjectHideFlags: 0
@@ -17190,6 +17288,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &691350280
 GameObject:
   m_ObjectHideFlags: 0
@@ -17696,6 +17795,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &707759682
 GameObject:
   m_ObjectHideFlags: 0
@@ -18286,6 +18386,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &740157387
 GameObject:
   m_ObjectHideFlags: 0
@@ -18456,6 +18557,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &744467601
 GameObject:
   m_ObjectHideFlags: 0
@@ -18626,6 +18728,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &748795303
 GameObject:
   m_ObjectHideFlags: 0
@@ -18712,6 +18815,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &750213296
 GameObject:
   m_ObjectHideFlags: 0
@@ -18810,6 +18914,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 1
 --- !u!61 &751844808
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19006,6 +19111,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &764211036
 GameObject:
   m_ObjectHideFlags: 0
@@ -19092,6 +19198,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &766693474
 GameObject:
   m_ObjectHideFlags: 0
@@ -19346,6 +19453,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &774216299
 GameObject:
   m_ObjectHideFlags: 0
@@ -19489,6 +19597,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!61 &775101307
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19937,6 +20046,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &794313650
 GameObject:
   m_ObjectHideFlags: 0
@@ -20023,6 +20133,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &794752093
 GameObject:
   m_ObjectHideFlags: 0
@@ -20082,6 +20193,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!61 &794752096
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20278,6 +20390,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &828751317
 GameObject:
   m_ObjectHideFlags: 0
@@ -20364,6 +20477,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &838650777
 GameObject:
   m_ObjectHideFlags: 0
@@ -20450,6 +20564,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &839155067
 GameObject:
   m_ObjectHideFlags: 0
@@ -20536,6 +20651,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &841618039
 GameObject:
   m_ObjectHideFlags: 0
@@ -20706,6 +20822,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &843338683
 GameObject:
   m_ObjectHideFlags: 0
@@ -20792,6 +20909,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &848420211
 GameObject:
   m_ObjectHideFlags: 0
@@ -21213,6 +21331,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &864858364
 GameObject:
   m_ObjectHideFlags: 0
@@ -21299,6 +21418,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &878992205
 GameObject:
   m_ObjectHideFlags: 0
@@ -21384,6 +21504,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &879323158
 GameObject:
   m_ObjectHideFlags: 0
@@ -21470,6 +21591,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &892948726
 GameObject:
   m_ObjectHideFlags: 0
@@ -21556,6 +21678,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &893807037
 GameObject:
   m_ObjectHideFlags: 0
@@ -21890,6 +22013,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &904611962
 GameObject:
   m_ObjectHideFlags: 0
@@ -22060,6 +22184,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &911084036
 GameObject:
   m_ObjectHideFlags: 0
@@ -22146,6 +22271,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &917708756
 GameObject:
   m_ObjectHideFlags: 0
@@ -22400,6 +22526,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &926362609
 GameObject:
   m_ObjectHideFlags: 0
@@ -22570,6 +22697,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &937279407
 GameObject:
   m_ObjectHideFlags: 0
@@ -22656,6 +22784,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &939079996
 GameObject:
   m_ObjectHideFlags: 0
@@ -22826,6 +22955,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &945178626
 GameObject:
   m_ObjectHideFlags: 0
@@ -23199,6 +23329,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &959085217
 GameObject:
   m_ObjectHideFlags: 0
@@ -23285,6 +23416,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &960017452
 GameObject:
   m_ObjectHideFlags: 0
@@ -23539,6 +23671,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &969389192
 GameObject:
   m_ObjectHideFlags: 0
@@ -23625,6 +23758,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &970675165
 GameObject:
   m_ObjectHideFlags: 0
@@ -23711,6 +23845,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &971695539
 GameObject:
   m_ObjectHideFlags: 0
@@ -23965,6 +24100,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &990165933
 GameObject:
   m_ObjectHideFlags: 0
@@ -24303,6 +24439,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1000893754
 GameObject:
   m_ObjectHideFlags: 0
@@ -24389,6 +24526,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1003180765
 GameObject:
   m_ObjectHideFlags: 0
@@ -24475,6 +24613,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1004069196
 GameObject:
   m_ObjectHideFlags: 0
@@ -24561,6 +24700,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1005104848
 GameObject:
   m_ObjectHideFlags: 0
@@ -25067,6 +25207,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1025017680
 GameObject:
   m_ObjectHideFlags: 0
@@ -25153,6 +25294,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1028164518
 GameObject:
   m_ObjectHideFlags: 0
@@ -25239,6 +25381,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1032482504
 GameObject:
   m_ObjectHideFlags: 0
@@ -25577,6 +25720,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1049091126
 GameObject:
   m_ObjectHideFlags: 0
@@ -25663,6 +25807,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1058715927
 GameObject:
   m_ObjectHideFlags: 0
@@ -25833,6 +25978,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1068938523
 GameObject:
   m_ObjectHideFlags: 0
@@ -26087,6 +26233,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1080640500
 GameObject:
   m_ObjectHideFlags: 0
@@ -26173,6 +26320,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1081075452
 GameObject:
   m_ObjectHideFlags: 0
@@ -26343,6 +26491,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1092226377
 GameObject:
   m_ObjectHideFlags: 0
@@ -26429,6 +26578,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1094403133
 GameObject:
   m_ObjectHideFlags: 0
@@ -26683,6 +26833,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1105197575
 GameObject:
   m_ObjectHideFlags: 0
@@ -26768,6 +26919,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1111884457
 GameObject:
   m_ObjectHideFlags: 0
@@ -27105,6 +27257,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1128763977
 GameObject:
   m_ObjectHideFlags: 0
@@ -27275,6 +27428,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1131541719
 GameObject:
   m_ObjectHideFlags: 0
@@ -27361,6 +27515,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1143567853
 GameObject:
   m_ObjectHideFlags: 0
@@ -27447,6 +27602,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1152065180
 GameObject:
   m_ObjectHideFlags: 0
@@ -27533,6 +27689,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1156296125
 GameObject:
   m_ObjectHideFlags: 0
@@ -27702,6 +27859,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1166111916
 GameObject:
   m_ObjectHideFlags: 0
@@ -27788,6 +27946,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1166538352
 GameObject:
   m_ObjectHideFlags: 0
@@ -28042,6 +28201,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1177077683
 GameObject:
   m_ObjectHideFlags: 0
@@ -28380,6 +28540,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1188762355
 GameObject:
   m_ObjectHideFlags: 0
@@ -28466,6 +28627,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1189228526
 GameObject:
   m_ObjectHideFlags: 0
@@ -28552,6 +28714,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1190717110
 GameObject:
   m_ObjectHideFlags: 0
@@ -28721,6 +28884,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1194072746
 GameObject:
   m_ObjectHideFlags: 0
@@ -28807,6 +28971,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1199319349
 GameObject:
   m_ObjectHideFlags: 0
@@ -28893,6 +29058,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1199320621
 GameObject:
   m_ObjectHideFlags: 0
@@ -29231,6 +29397,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1211298765
 GameObject:
   m_ObjectHideFlags: 0
@@ -29317,6 +29484,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1214410941
 GameObject:
   m_ObjectHideFlags: 0
@@ -29403,6 +29571,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1217282079
 GameObject:
   m_ObjectHideFlags: 0
@@ -29573,6 +29742,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1221779784
 GameObject:
   m_ObjectHideFlags: 0
@@ -29827,6 +29997,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1235096290
 GameObject:
   m_ObjectHideFlags: 0
@@ -29997,6 +30168,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1245335350
 GameObject:
   m_ObjectHideFlags: 0
@@ -30167,6 +30339,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1251597152
 GameObject:
   m_ObjectHideFlags: 0
@@ -30227,6 +30400,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!61 &1251597155
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30339,6 +30513,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1256275826
 GameObject:
   m_ObjectHideFlags: 0
@@ -30425,6 +30600,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1266352140
 GameObject:
   m_ObjectHideFlags: 0
@@ -30679,6 +30855,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1271435281
 GameObject:
   m_ObjectHideFlags: 0
@@ -30765,6 +30942,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1276383621
 GameObject:
   m_ObjectHideFlags: 0
@@ -30851,6 +31029,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1281121295
 GameObject:
   m_ObjectHideFlags: 0
@@ -30937,6 +31116,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1285257670
 GameObject:
   m_ObjectHideFlags: 0
@@ -31107,6 +31287,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1285700556
 GameObject:
   m_ObjectHideFlags: 0
@@ -31193,6 +31374,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1300684196
 GameObject:
   m_ObjectHideFlags: 0
@@ -31279,6 +31461,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1301763045
 GameObject:
   m_ObjectHideFlags: 0
@@ -31365,6 +31548,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1302786855
 GameObject:
   m_ObjectHideFlags: 0
@@ -31535,6 +31719,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1308171361
 GameObject:
   m_ObjectHideFlags: 0
@@ -31705,6 +31890,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1319174878
 GameObject:
   m_ObjectHideFlags: 0
@@ -31976,15 +32162,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ghostNodeState: 0
-  ghostType: 3
+  ghostType: 0
   ghostNodeLeft: {fileID: 661300449}
   ghostNodeRight: {fileID: 1622451049}
   ghostNodeStart: {fileID: 751844805}
   ghostNodeCenter: {fileID: 1251597152}
+  respawn: 0
   movementController: {fileID: 0}
   startNode: {fileID: 0}
   leaveHome: 0
   gameManager: {fileID: 0}
+  testingRespawn: 0
 --- !u!4 &1319901636
 Transform:
   m_ObjectHideFlags: 0
@@ -32339,6 +32527,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1335182803
 GameObject:
   m_ObjectHideFlags: 0
@@ -32509,6 +32698,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1349244592
 GameObject:
   m_ObjectHideFlags: 0
@@ -32763,6 +32953,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1353177457
 GameObject:
   m_ObjectHideFlags: 0
@@ -32933,6 +33124,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1360396760
 GameObject:
   m_ObjectHideFlags: 0
@@ -33271,6 +33463,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1380836856
 GameObject:
   m_ObjectHideFlags: 0
@@ -33758,6 +33951,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1384174708
 GameObject:
   m_ObjectHideFlags: 0
@@ -33844,6 +34038,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1397581225
 GameObject:
   m_ObjectHideFlags: 0
@@ -33930,6 +34125,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1399055368
 GameObject:
   m_ObjectHideFlags: 0
@@ -34016,6 +34212,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1401106943
 GameObject:
   m_ObjectHideFlags: 0
@@ -34102,6 +34299,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1403288895
 GameObject:
   m_ObjectHideFlags: 0
@@ -34188,6 +34386,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1403666158
 GameObject:
   m_ObjectHideFlags: 0
@@ -34393,6 +34592,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1414436195
 GameObject:
   m_ObjectHideFlags: 0
@@ -34563,6 +34763,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1428039372
 GameObject:
   m_ObjectHideFlags: 0
@@ -34733,6 +34934,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1437871648
 GameObject:
   m_ObjectHideFlags: 0
@@ -34903,6 +35105,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1448950079
 GameObject:
   m_ObjectHideFlags: 0
@@ -34989,6 +35192,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1450224683
 GameObject:
   m_ObjectHideFlags: 0
@@ -35242,6 +35446,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1472729514
 GameObject:
   m_ObjectHideFlags: 0
@@ -35412,6 +35617,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1475202173
 GameObject:
   m_ObjectHideFlags: 0
@@ -35750,6 +35956,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1498507215
 GameObject:
   m_ObjectHideFlags: 0
@@ -35920,6 +36127,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1510145279
 GameObject:
   m_ObjectHideFlags: 0
@@ -36090,6 +36298,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1517573491
 GameObject:
   m_ObjectHideFlags: 0
@@ -36176,6 +36385,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1517691429
 GameObject:
   m_ObjectHideFlags: 0
@@ -36262,6 +36472,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1537508817
 GameObject:
   m_ObjectHideFlags: 0
@@ -36432,6 +36643,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1540381524
 GameObject:
   m_ObjectHideFlags: 0
@@ -36602,6 +36814,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1548517839
 GameObject:
   m_ObjectHideFlags: 0
@@ -36856,6 +37069,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1554452743
 GameObject:
   m_ObjectHideFlags: 0
@@ -36942,6 +37156,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1555386817
 GameObject:
   m_ObjectHideFlags: 0
@@ -37112,6 +37327,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1565289245
 GameObject:
   m_ObjectHideFlags: 0
@@ -37534,6 +37750,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1572066070
 GameObject:
   m_ObjectHideFlags: 0
@@ -37872,6 +38089,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1580015368
 GameObject:
   m_ObjectHideFlags: 0
@@ -37958,6 +38176,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1581540615
 GameObject:
   m_ObjectHideFlags: 0
@@ -38044,6 +38263,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1582219002
 GameObject:
   m_ObjectHideFlags: 0
@@ -38298,6 +38518,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1588486629
 GameObject:
   m_ObjectHideFlags: 0
@@ -38636,6 +38857,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1595532694
 GameObject:
   m_ObjectHideFlags: 0
@@ -38806,6 +39028,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1598951110
 GameObject:
   m_ObjectHideFlags: 0
@@ -38976,6 +39199,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1608673420
 GameObject:
   m_ObjectHideFlags: 0
@@ -39100,6 +39324,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1611247457
 GameObject:
   m_ObjectHideFlags: 0
@@ -39270,6 +39495,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1622038116
 GameObject:
   m_ObjectHideFlags: 0
@@ -39414,6 +39640,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!61 &1622451052
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39778,6 +40005,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1636896654
 GameObject:
   m_ObjectHideFlags: 0
@@ -39864,6 +40092,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1645950950
 GameObject:
   m_ObjectHideFlags: 0
@@ -40118,6 +40347,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1662864316
 GameObject:
   m_ObjectHideFlags: 0
@@ -40288,6 +40518,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1675975213
 GameObject:
   m_ObjectHideFlags: 0
@@ -40626,6 +40857,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1688997300
 GameObject:
   m_ObjectHideFlags: 0
@@ -40712,6 +40944,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1690823441
 GameObject:
   m_ObjectHideFlags: 0
@@ -40966,6 +41199,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1697463749
 GameObject:
   m_ObjectHideFlags: 0
@@ -41052,6 +41286,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1697470958
 GameObject:
   m_ObjectHideFlags: 0
@@ -41138,6 +41373,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1697885256
 GameObject:
   m_ObjectHideFlags: 0
@@ -41224,6 +41460,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1701286975
 GameObject:
   m_ObjectHideFlags: 0
@@ -41310,6 +41547,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1702299067
 GameObject:
   m_ObjectHideFlags: 0
@@ -41480,6 +41718,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1709594515
 GameObject:
   m_ObjectHideFlags: 0
@@ -41566,6 +41805,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1709830460
 GameObject:
   m_ObjectHideFlags: 0
@@ -41652,6 +41892,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1711177925
 GameObject:
   m_ObjectHideFlags: 0
@@ -41693,6 +41934,10 @@ MonoBehaviour:
   currentEating: 0
   score: 0
   scoreText: {fileID: 893807039}
+  ghostNodeLeft: {fileID: 661300449}
+  ghostNodeRight: {fileID: 1622451049}
+  ghostNodeStart: {fileID: 751844805}
+  ghostNodeCenter: {fileID: 1251597152}
 --- !u!4 &1711177927
 Transform:
   m_ObjectHideFlags: 0
@@ -42166,6 +42411,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1723137739
 GameObject:
   m_ObjectHideFlags: 0
@@ -42336,6 +42582,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1734652074
 GameObject:
   m_ObjectHideFlags: 0
@@ -42506,6 +42753,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1740813832
 GameObject:
   m_ObjectHideFlags: 0
@@ -42592,6 +42840,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1748757316
 GameObject:
   m_ObjectHideFlags: 0
@@ -42678,6 +42927,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1753631659
 GameObject:
   m_ObjectHideFlags: 0
@@ -42847,6 +43097,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1759903785
 GameObject:
   m_ObjectHideFlags: 0
@@ -43269,6 +43520,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1794362545
 GameObject:
   m_ObjectHideFlags: 0
@@ -43355,6 +43607,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1798803895
 GameObject:
   m_ObjectHideFlags: 0
@@ -43441,6 +43694,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1813501529
 GameObject:
   m_ObjectHideFlags: 0
@@ -43527,6 +43781,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1823159778
 GameObject:
   m_ObjectHideFlags: 0
@@ -43697,6 +43952,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1831197025
 GameObject:
   m_ObjectHideFlags: 0
@@ -43783,6 +44039,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1832599497
 GameObject:
   m_ObjectHideFlags: 0
@@ -43869,6 +44126,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1838222538
 GameObject:
   m_ObjectHideFlags: 0
@@ -43928,6 +44186,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!61 &1838222541
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44040,6 +44299,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1839480318
 GameObject:
   m_ObjectHideFlags: 0
@@ -44294,6 +44554,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1848512163
 GameObject:
   m_ObjectHideFlags: 0
@@ -44632,6 +44893,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1861868025
 GameObject:
   m_ObjectHideFlags: 0
@@ -44802,6 +45064,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1864354657
 GameObject:
   m_ObjectHideFlags: 0
@@ -44972,6 +45235,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1868863860
 GameObject:
   m_ObjectHideFlags: 0
@@ -45142,6 +45406,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1871200920
 GameObject:
   m_ObjectHideFlags: 0
@@ -45228,6 +45493,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1880269793
 GameObject:
   m_ObjectHideFlags: 0
@@ -45314,6 +45580,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1885064072
 GameObject:
   m_ObjectHideFlags: 0
@@ -45484,6 +45751,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1891408475
 GameObject:
   m_ObjectHideFlags: 0
@@ -45570,6 +45838,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1894785634
 GameObject:
   m_ObjectHideFlags: 0
@@ -45656,6 +45925,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1895845860
 GameObject:
   m_ObjectHideFlags: 0
@@ -45910,6 +46180,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1914902487
 GameObject:
   m_ObjectHideFlags: 0
@@ -45996,6 +46267,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1916855131
 GameObject:
   m_ObjectHideFlags: 0
@@ -46082,6 +46354,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1922291478
 GameObject:
   m_ObjectHideFlags: 0
@@ -46168,6 +46441,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1922764593
 GameObject:
   m_ObjectHideFlags: 0
@@ -46254,6 +46528,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1932521282
 GameObject:
   m_ObjectHideFlags: 0
@@ -46340,6 +46615,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1935435744
 GameObject:
   m_ObjectHideFlags: 0
@@ -46426,6 +46702,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1939221902
 GameObject:
   m_ObjectHideFlags: 0
@@ -46512,6 +46789,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1943209444
 GameObject:
   m_ObjectHideFlags: 0
@@ -46598,6 +46876,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1946031562
 GameObject:
   m_ObjectHideFlags: 0
@@ -46768,6 +47047,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1948568204
 GameObject:
   m_ObjectHideFlags: 0
@@ -46938,6 +47218,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1949402740
 GameObject:
   m_ObjectHideFlags: 0
@@ -47024,6 +47305,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1953393140
 GameObject:
   m_ObjectHideFlags: 0
@@ -47110,6 +47392,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1954353158
 GameObject:
   m_ObjectHideFlags: 0
@@ -47431,6 +47714,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1958868749
 GameObject:
   m_ObjectHideFlags: 0
@@ -47601,6 +47885,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1960115150
 GameObject:
   m_ObjectHideFlags: 0
@@ -47687,6 +47972,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1962368033
 GameObject:
   m_ObjectHideFlags: 0
@@ -47857,6 +48143,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1966455044
 GameObject:
   m_ObjectHideFlags: 0
@@ -48615,6 +48902,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &1996836564
 GameObject:
   m_ObjectHideFlags: 0
@@ -48953,6 +49241,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2005116927
 GameObject:
   m_ObjectHideFlags: 0
@@ -49543,6 +49832,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2022920606
 GameObject:
   m_ObjectHideFlags: 0
@@ -49629,6 +49919,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2026690431
 GameObject:
   m_ObjectHideFlags: 0
@@ -49715,6 +50006,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2027910001
 GameObject:
   m_ObjectHideFlags: 0
@@ -49801,6 +50093,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2033164246
 GameObject:
   m_ObjectHideFlags: 0
@@ -49971,6 +50264,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2043805617
 GameObject:
   m_ObjectHideFlags: 0
@@ -50057,6 +50351,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2044603408
 GameObject:
   m_ObjectHideFlags: 0
@@ -50143,6 +50438,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2046266342
 GameObject:
   m_ObjectHideFlags: 0
@@ -50229,6 +50525,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2046652423
 GameObject:
   m_ObjectHideFlags: 0
@@ -50567,6 +50864,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2070947309
 GameObject:
   m_ObjectHideFlags: 0
@@ -50821,6 +51119,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2073670900
 GameObject:
   m_ObjectHideFlags: 0
@@ -50907,6 +51206,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2074238666
 GameObject:
   m_ObjectHideFlags: 0
@@ -50993,6 +51293,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2080566631
 GameObject:
   m_ObjectHideFlags: 0
@@ -51247,6 +51548,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2101057359
 GameObject:
   m_ObjectHideFlags: 0
@@ -51333,6 +51635,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2102352360
 GameObject:
   m_ObjectHideFlags: 0
@@ -51503,6 +51806,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2111849022
 GameObject:
   m_ObjectHideFlags: 0
@@ -51589,6 +51893,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2118265731
 GameObject:
   m_ObjectHideFlags: 0
@@ -51759,6 +52064,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2121160828
 GameObject:
   m_ObjectHideFlags: 0
@@ -51929,6 +52235,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2125388741
 GameObject:
   m_ObjectHideFlags: 0
@@ -52015,6 +52322,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2131372864
 GameObject:
   m_ObjectHideFlags: 0
@@ -52074,6 +52382,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!61 &2131372867
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -52186,6 +52495,7 @@ MonoBehaviour:
   hasPellet: 0
   pelletSprite: {fileID: 0}
   gameManager: {fileID: 0}
+  isGhostStart: 0
 --- !u!1 &2142952516
 GameObject:
   m_ObjectHideFlags: 0
