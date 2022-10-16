@@ -40,6 +40,8 @@ public class EnemyController : MonoBehaviour
     public GameObject[] scatterNodes;
     public int scatterNodesIndex;
 
+    public bool alreadyLeftHome = false;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -53,6 +55,7 @@ public class EnemyController : MonoBehaviour
             respawn = GhostNodeStatesEnum.centerNode;
             startNode = ghostNodeStart;
             leaveHome = true;
+            alreadyLeftHome = true;
         }
         else if (ghostType == GhostType.pink)
         {
@@ -100,6 +103,7 @@ public class EnemyController : MonoBehaviour
     {
         if (ghostNodeState == GhostNodeStatesEnum.movingInNodes)
         {
+            alreadyLeftHome = true;
             //scatter mode
             if (gameManager.ghostMode == GameManager.GhostMode.scatter)
             {
@@ -111,7 +115,8 @@ public class EnemyController : MonoBehaviour
 
             else if (isfrighten)
             {
-
+                string direction = RandomDirection();
+                movementController.SetDirection(direction);
             }
             //chase mode
             else
@@ -205,6 +210,34 @@ public class EnemyController : MonoBehaviour
                 }
             }
         }
+    }
+
+    string RandomDirection()
+    {
+        List<string> possibleDirections = new List<string>();
+        NodeController nodeController = movementController.Node.GetComponent<NodeController>();
+
+        if (nodeController.moveDown && movementController.lastMovingDirection != "up")
+        {
+            possibleDirections.Add("down");
+        }
+        if(nodeController.moveUp && movementController.lastMovingDirection != "down")
+        {
+            possibleDirections.Add("up");
+        }
+        if(nodeController.moveRight && movementController.lastMovingDirection != "left")
+        {
+            possibleDirections.Add("right");
+        }
+        if(nodeController.moveLeft && movementController.lastMovingDirection != "right")
+        {
+            possibleDirections.Add("left");
+
+        }
+        string direction = "";
+        int directionIndex = Random.Range(0, possibleDirections.Count - 1);
+        direction = possibleDirections[directionIndex];
+        return direction;
     }
 
     void GhostScatterDirection()
