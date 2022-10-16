@@ -31984,6 +31984,7 @@ MonoBehaviour:
   movementController: {fileID: 0}
   startNode: {fileID: 0}
   leaveHome: 0
+  gameManager: {fileID: 0}
 --- !u!4 &1319901636
 Transform:
   m_ObjectHideFlags: 0
@@ -41683,6 +41684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d24056836a87c428d9dedd2dc297f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pacStudent: {fileID: 614841951}
   leftWarpNode: {fileID: 794752093}
   rightWarpNode: {fileID: 1838222538}
   siren: {fileID: 1711177928}

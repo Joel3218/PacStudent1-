@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject pacStudent;
     public GameObject leftWarpNode;
     public GameObject rightWarpNode;
 
