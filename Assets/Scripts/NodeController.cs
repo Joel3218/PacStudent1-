@@ -193,6 +193,10 @@ public class NodeController : MonoBehaviour
     public bool isGhostStart = false;
     public bool isWarpNode = false;
 
+    public bool isPowerPellet = false;
+
+    public float blinkingTime = 0;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -278,7 +282,15 @@ public class NodeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (isPowerPellet && hasPellet)
+        {
+            blinkingTime += Time.deltaTime;
+            if (blinkingTime >= 0.1f)
+            {
+                blinkingTime = 0;
+                pelletSprite.enabled = !pelletSprite.enabled;
+            }
+        }
     }
 
     public GameObject GetNodeFromDirection(string direction)
