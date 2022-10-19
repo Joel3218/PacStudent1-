@@ -31,7 +31,16 @@ public class GameManager : MonoBehaviour
     public int pelletsRemaining;
     public int pelletsCollected;
 
+    public EnemyController redGhostControl;
+    public EnemyController orangeGhostControl;
+    public EnemyController pinkGhostControl;
+    public EnemyController blueGhostControl;
+
+    public List<NodeController> nodeControllers = new List<NodeController>();
+
     public bool deathInThisLevel = false;
+
+    public bool levelRunning;
 
     public enum GhostMode
     {
@@ -39,11 +48,21 @@ public class GameManager : MonoBehaviour
     }
 
     public GhostMode ghostMode;
+    public bool newGame;
+    public bool clearLevel;
 
 
     // Start is called before the first frame update
     void Awake()
     {
+
+        newGame = true;
+        clearLevel = false;
+        redGhostControl = redGhost.GetComponent<EnemyController>();
+        orangeGhostControl = orangeGhost.GetComponent<EnemyController>();
+        blueGhostControl = blueGhost.GetComponent<EnemyController>();
+        pinkGhostControl = pinkGhost.GetComponent<EnemyController>();
+        levelRunning = true;
         pinkGhost.GetComponent<EnemyController>().leaveHome = true;
         ghostMode = GhostMode.chase;
         ghostNodeStart.GetComponent<NodeController>().isGhostStart = true;
@@ -53,14 +72,55 @@ public class GameManager : MonoBehaviour
         siren.Play();
     }
 
+    public IEnumerator Setup()
+    {
+        if (clearLevel)
+        {
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        pelletsCollected = 0;
+        ghostMode = GhostMode.scatter;
+        levelRunning = false;
+
+        float timer = 1f;
+
+
+        if (clearLevel || newGame)
+        {
+            timer = 4f;
+            for (int i = 0; i < nodeControllers.Count; i++) //respawning the pellets after level is complete or a new game
+            {
+                nodeControllers[i].RespawnPellet();
+            }
+        }
+      
+        pacStudent.GetComponent<PlayerController>().Setup();
+
+        redGhostControl.Setup();
+        orangeGhostControl.Setup();
+        blueGhostControl.Setup();
+        pinkGhostControl.Setup();
+
+        newGame = false;
+        clearLevel = false;
+        yield return new WaitForSeconds(timer);
+        StartGame();
+    }
+
+    void StartGame()
+    {
+        levelRunning = true;
+    }
     // Update is called once per frame
     void Update()
     {
         
     }
 
-    public void GetPellet()
+    public void GetPellet(NodeController nodeController)
     {
+        nodeControllers.Add(nodeController);
         totalPellets++;
         pelletsRemaining++;
     }

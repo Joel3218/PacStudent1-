@@ -15343,6 +15343,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   animator: {fileID: 0}
+  firstPos: {x: 0, y: 0}
+  firstNode: {fileID: 0}
 --- !u!4 &614841954
 Transform:
   m_ObjectHideFlags: 0
