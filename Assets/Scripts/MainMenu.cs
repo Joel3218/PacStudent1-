@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NewBehaviourScript : MonoBehaviour
+public class MainMenu : MonoBehaviour
 {
     public string level1Scene;
     // Start is called before the first frame update
@@ -20,7 +20,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     public void Level1()
     {
-
+        SceneManager.LoadScene(level1Scene);
     }
 
     public void Level2()
