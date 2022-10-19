@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     public AudioSource siren;
     public AudioSource eating1;
     public AudioSource eating2;
+    public AudioSource startGameAudio;
+
     public int currentEating = 0;
 
     public int score;
@@ -31,16 +33,16 @@ public class GameManager : MonoBehaviour
     public int pelletsRemaining;
     public int pelletsCollected;
 
-    public EnemyController redGhostControl;
-    public EnemyController orangeGhostControl;
-    public EnemyController pinkGhostControl;
-    public EnemyController blueGhostControl;
+    public EnemyController redGhostController;
+    public EnemyController orangeGhostController;
+    public EnemyController pinkGhostController;
+    public EnemyController blueGhostController;
 
     public List<NodeController> nodeControllers = new List<NodeController>();
 
     public bool deathInThisLevel = false;
 
-    public bool levelRunning;
+    public bool gameisRunning;
 
     public enum GhostMode
     {
@@ -51,29 +53,35 @@ public class GameManager : MonoBehaviour
     public bool newGame;
     public bool clearLevel;
 
+    
+
+    public int lives;
+    public int currentLevel;
+
 
     // Start is called before the first frame update
     void Awake()
     {
-
+        
         newGame = true;
         clearLevel = false;
-        redGhostControl = redGhost.GetComponent<EnemyController>();
-        orangeGhostControl = orangeGhost.GetComponent<EnemyController>();
-        blueGhostControl = blueGhost.GetComponent<EnemyController>();
-        pinkGhostControl = pinkGhost.GetComponent<EnemyController>();
-        levelRunning = true;
-        pinkGhost.GetComponent<EnemyController>().leaveHome = true;
-        ghostMode = GhostMode.chase;
+        redGhostController = redGhost.GetComponent<EnemyController>();
+        orangeGhostController = orangeGhost.GetComponent<EnemyController>();
+        blueGhostController = blueGhost.GetComponent<EnemyController>();
+        pinkGhostController = pinkGhost.GetComponent<EnemyController>();
+        
+        
+        
         ghostNodeStart.GetComponent<NodeController>().isGhostStart = true;
         pacStudent = GameObject.Find("Player");
-        score = 0;
-        currentEating = 0;
-        siren.Play();
+
+        StartCoroutine(Setup());
+        
     }
 
     public IEnumerator Setup()
     {
+        
         if (clearLevel)
         {
             yield return new WaitForSeconds(0.1f);
@@ -81,7 +89,8 @@ public class GameManager : MonoBehaviour
 
         pelletsCollected = 0;
         ghostMode = GhostMode.scatter;
-        levelRunning = false;
+        gameisRunning = false;
+        currentEating = 0;
 
         float timer = 1f;
 
@@ -94,13 +103,22 @@ public class GameManager : MonoBehaviour
                 nodeControllers[i].RespawnPellet();
             }
         }
+        if (newGame)
+        {
+            startGameAudio.Play();
+            score = 0;
+            scoreText.text = "Score: " + score.ToString();
+            lives = 3;
+            currentLevel = 1;
+
+        }
       
         pacStudent.GetComponent<PlayerController>().Setup();
 
-        redGhostControl.Setup();
-        orangeGhostControl.Setup();
-        blueGhostControl.Setup();
-        pinkGhostControl.Setup();
+        redGhostController.Setup();
+        orangeGhostController.Setup();
+        blueGhostController.Setup();
+        pinkGhostController.Setup();
 
         newGame = false;
         clearLevel = false;
@@ -110,7 +128,8 @@ public class GameManager : MonoBehaviour
 
     void StartGame()
     {
-        levelRunning = true;
+       gameisRunning = true;
+        siren.Play();
     }
     // Update is called once per frame
     void Update()

@@ -25,6 +25,10 @@ public class MovementController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+      /*  if (!gameManager.gameisRunning)
+        {
+            return;
+        } */
         NodeController currentNodeController = Node.GetComponent<NodeController>();
 
         transform.position = Vector2.MoveTowards(transform.position, Node.transform.position, speed * Time.deltaTime);
