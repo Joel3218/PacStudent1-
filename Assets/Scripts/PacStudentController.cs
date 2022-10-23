@@ -23,19 +23,19 @@ public class PacStudentController : MonoBehaviour
     void Update()
     {
         animator.SetBool("moving", true);
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.A))
         {
             movementController.SetDirection("left");
         }
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.D))
         {
             movementController.SetDirection("right");
         }
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.W))
         {
             movementController.SetDirection("up");
         }
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.S))
         {
             movementController.SetDirection("down");
         }
