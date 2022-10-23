@@ -47,7 +47,7 @@ public class MovementController : MonoBehaviour
         {
             if (Ghost)
             {
-                GetComponent<EnemyController>().ReachedCenter(currentNodeController);
+                GetComponent<GhostController>().ReachedCenter(currentNodeController);
             }
 
             //if we reach centre of left warp, warp to right
@@ -73,7 +73,7 @@ public class MovementController : MonoBehaviour
             {
                 //if we are not a ghost, dont enter ther ghost home
                 if (currentNodeController.isGhostStart && direction == "down" && (!Ghost ||
-                    GetComponent<EnemyController>().ghostNodeState != EnemyController.GhostNodeStatesEnum.respawning))
+                    GetComponent<GhostController>().ghostNodeState != GhostController.GhostNodeStatesEnum.respawning))
                 {
                     direction = lastMovingDirection;
                 }
