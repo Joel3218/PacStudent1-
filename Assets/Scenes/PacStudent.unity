@@ -8384,7 +8384,7 @@ GameObject:
   - component: {fileID: 320919679}
   - component: {fileID: 320919678}
   m_Layer: 5
-  m_Name: Ghost4Canvas (3)
+  m_Name: Ghost4Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8461,7 +8461,7 @@ RectTransform:
   m_GameObject: {fileID: 320919677}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.121838786}
-  m_LocalScale: {x: 6.945891, y: 7.1461754, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1345563946}
@@ -8470,8 +8470,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1726.9916, y: 1831.1073}
-  m_SizeDelta: {x: 498, y: 513}
+  m_AnchoredPosition: {x: 7.62, y: 8.07}
+  m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &321245019
 GameObject:
@@ -8657,10 +8657,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2097301626}
   - {fileID: 893807038}
   - {fileID: 201798360}
   - {fileID: 1141913333}
-  - {fileID: 2097301626}
   - {fileID: 1854001039}
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -11496,7 +11496,7 @@ GameObject:
   - component: {fileID: 439213211}
   - component: {fileID: 439213210}
   m_Layer: 5
-  m_Name: Ghost2Canvas (1)
+  m_Name: Ghost2Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11573,7 +11573,7 @@ RectTransform:
   m_GameObject: {fileID: 439213209}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.121838786}
-  m_LocalScale: {x: 6.945891, y: 7.1461754, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1682922711}
@@ -11582,8 +11582,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1730, y: 1831.136}
-  m_SizeDelta: {x: 498, y: 513}
+  m_AnchoredPosition: {x: 7.6, y: 1.4}
+  m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &440445461
 GameObject:
@@ -26279,7 +26279,7 @@ GameObject:
   - component: {fileID: 1017147895}
   - component: {fileID: 1017147894}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31755,7 +31755,7 @@ GameObject:
   - component: {fileID: 1254118372}
   - component: {fileID: 1254118371}
   m_Layer: 5
-  m_Name: 3
+  m_Name: Ghost3Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31832,7 +31832,7 @@ RectTransform:
   m_GameObject: {fileID: 1254118370}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.121838786}
-  m_LocalScale: {x: 6.945891, y: 7.1461754, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1017147893}
@@ -31841,8 +31841,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1733.493, y: 1831.0717}
-  m_SizeDelta: {x: 498, y: 513}
+  m_AnchoredPosition: {x: 7.6, y: 1.3}
+  m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1255596599
 GameObject:
@@ -35252,7 +35252,7 @@ RectTransform:
   m_GameObject: {fileID: 1374093189}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.121838786}
-  m_LocalScale: {x: 6.945891, y: 7.1461754, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1684461081}
@@ -35261,8 +35261,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1732, y: 1827}
-  m_SizeDelta: {x: 498, y: 513}
+  m_AnchoredPosition: {x: 0.16, y: -1.56}
+  m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1376484501
 GameObject:
