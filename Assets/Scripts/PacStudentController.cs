@@ -9,9 +9,12 @@ public class PacStudentController : MonoBehaviour
 
     public SpriteRenderer sprite;
     public Animator animator;
+
+    public Vector3 position = new Vector3(-4.0f, 4.237f, 0.0f);
     // Start is called before the first frame update
     void Awake()
     {
+       transform.position = position;
         animator = GetComponentInChildren<Animator>();
         sprite = GetComponentInChildren<SpriteRenderer>();
 
