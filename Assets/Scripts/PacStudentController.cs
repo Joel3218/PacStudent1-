@@ -16,7 +16,7 @@ public class PacStudentController : MonoBehaviour
         sprite = GetComponentInChildren<SpriteRenderer>();
 
         movementController = GetComponent<MovementController>();
-        movementController.lastMovingDirection = "left";
+       // movementController.lastMovingDirection = "left";
     }
 
     // Update is called once per frame
