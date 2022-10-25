@@ -44266,7 +44266,7 @@ MonoBehaviour:
   pelletsRemaining: 0
   pelletsCollected: 0
   deathInThisLevel: 0
-  ghostMode: 1
+  ghostMode: 0
 --- !u!4 &1711177927
 Transform:
   m_ObjectHideFlags: 0
