@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 314059099}
   - component: {fileID: 314059098}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1390,7 +1390,7 @@ GameObject:
   - component: {fileID: 1249725313}
   - component: {fileID: 1249725312}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1543,7 +1543,7 @@ GameObject:
   - component: {fileID: 1463388697}
   - component: {fileID: 1463388696}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1840,7 +1840,7 @@ GameObject:
   - component: {fileID: 1944028606}
   - component: {fileID: 1944028605}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -8663,7 +8663,7 @@ RectTransform:
   - {fileID: 1141913333}
   - {fileID: 1854001039}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -15820,6 +15820,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   animator: {fileID: 0}
+  position: {x: -4, y: 4.237, z: 0}
 --- !u!4 &614841954
 Transform:
   m_ObjectHideFlags: 0
@@ -23387,7 +23388,7 @@ GameObject:
   - component: {fileID: 911949120}
   - component: {fileID: 911949119}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: ExitGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50241,7 +50242,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1955613669
 GameObject:
