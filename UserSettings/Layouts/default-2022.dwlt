@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -34,23 +34,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 380
+    x: 237
     y: 0
-    width: 813
+    width: 956
     height: 549
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 12}
   - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -214,10 +214,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 380
+    width: 237
     height: 549
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -569,9 +569,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.074154854, y: -0.089000225, z: 0}
+    m_Target: {x: 338, y: 253.5, z: 0}
     speed: 2
-    m_Value: {x: -0.07407425, y: -0.08893976, z: 0}
+    m_Value: {x: 338, y: 253.5, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -621,9 +621,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.5077395
+    m_Target: 422.5
     speed: 2
-    m_Value: 6.5077643
+    m_Value: 422.5
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -670,7 +670,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 379
+    width: 236
     height: 528
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -681,7 +681,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2ef8ffffa8f9ffff2afbffff
+      m_ExpandedIDs: 0cb2ffff64b4ffffd6b5ffff80f5ffffd6f6ffff2afbffffc06500005866000092680000ac6b0000106e0000b06f0000a69a000068bf000070bf000078bf000080bf000088bf00009cbf0000a4bf0000acbf0000b4bf0000bcbf0000d0bf0000d8bf0000e0bf0000eebf0000f6bf000016c000001ec0000044c0000052c0000060c0000068c0000070c0000096c000009ec00000a6c00000aec00000c2c00000d0c00000d8c00000e0c0000020c1000028c1000036c100003ec1000046c100005ac100006ec1000076c100007ec1000086c100008ec10000bcc10000d0c10000eac1000002c2000016c2000024c200002cc2000034c200005ac2000076c2000086c2000094c200009cc20000a4c20000acc20000b4c20000cec20000eec200000cc300001ac3000022c3000030c3000044c3000058c3000066c300006ec300007cc3000084c300008cc3000094c30000a2c30000b0c30000ccc30000e0c30000e8c30000f0c30000f8c3000006c4000014c4000028c4000030c4000044c400004cc4000060c400006ec400007cc400009cc40000b0c40000d2c40000dac40000e2c40000eac40000fec4000012c500001ac5000040c500006cc500007ac5000088c5000090c50000aac50000b2c50000c6c50000f4c50000fcc5000012c600001ac6000022c600002ac6000038c6000040c6000078c6000080c600009cc60000aac60000b2c60000cec60000d6c60000dec60000ecc600000ac7000012c7000026c700002ec7000036c700004ac7000064c700006cc7000074c700007cc70000aac70000b2c70000bac70000cec70000d6c70000e4c70000f8c7000000c800000ec8000016c800002ac8000062c800006ac800007ac8000082c8000098c80000acc80000c0c80000c8c80000d0c80000e6c80000eec8000008c9000010c9000018c9000026c9000048c9000056c9000070c9000078c900008cc9000094c900009cc90000a4c90000b2c90000bac90000c2c90000cac90000dcc90000eac900001cca000032ca000046ca000054ca000076ca00009eca0000a6ca0000aeca0000b6ca0000beca0000c6ca0000d8ca0000e6ca0000f4ca000002cb00000acb000030cb00004acb000058cb000066cb00006ecb000076cb000084cb000096cb0000aacb0000b2cb0000c0cb0000e0cb0000facb000002cc00000acc00001ecc000038cc000046cc000060cc00006ecc000096cc00009ecc0000b2cc0000c0cc0000eacc0000f2cc000006cd00000ecd000016cd00001ecd000026cd000034cd00003ccd000044cd000060cd00006ecd00007ccd000084cd00008ccd0000bacd0000c2cd0000cacd0000d2cd0000e0cd0000e8cd0000f0cd000000ce000014ce00003cce00004ace000058ce000066ce00006ece000076ce000084ce00008cce000094ce0000a8ce0000b0ce0000b8ce0000c0ce0000c8ce0000d0ce0000d8ce0000e0ce0000e8ce0000f6ce00000ccf000014cf00001ccf000038cf000046cf00004ecf00005ccf00008ecf0000a8cf0000d4cf0000dccf0000e4cf0000eccf0000facf000002d000000ad0000012d000002cd0000040d0000048d0000050d0000070d0000078d0000092d000009ad00000a8d00000b6d00000bed00000ced00000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -725,9 +725,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 380
+    x: 237
     y: 73
-    width: 811
+    width: 954
     height: 528
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -739,7 +739,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 676, y: 507}
+  m_TargetSize: {x: 901, y: 507}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -753,14 +753,14 @@ MonoBehaviour:
   m_PlayFocused: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 07000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 01000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -338
-    m_HBaseRangeMax: 338
+    m_HBaseRangeMin: -450.5
+    m_HBaseRangeMax: 450.5
     m_VBaseRangeMin: -253.5
     m_VBaseRangeMax: 253.5
     m_HAllowExceedBaseRangeMin: 1
@@ -771,7 +771,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -780,23 +780,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 811
+      width: 954
       height: 507
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 405.5, y: 253.5}
+    m_Translation: {x: 477, y: 253.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -405.5
+      x: -477
       y: -253.5
-      width: 811
+      width: 954
       height: 507
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 811, y: 528}
+  m_LastWindowPixelSize: {x: 954, y: 528}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
