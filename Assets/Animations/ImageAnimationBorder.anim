@@ -17,20 +17,7 @@ AnimationClip:
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves: []
-  m_PPtrCurves:
-  - curve:
-    - time: 0
-      value: {fileID: 21300000, guid: 999b8216a18a8304c930abc8c5a53627, type: 3}
-    - time: 0.16666667
-      value: {fileID: 21300000, guid: f895ed555187ebf4998e4c13f345d914, type: 3}
-    - time: 0.33333334
-      value: {fileID: 21300000, guid: 6e1602cdd653ae6438365eea6de5052c, type: 3}
-    - time: 0.5
-      value: {fileID: 21300000, guid: f895ed555187ebf4998e4c13f345d914, type: 3}
-    attribute: m_Sprite
-    path: 
-    classID: 212
-    script: {fileID: 0}
+  m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -44,7 +31,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.51666665
+    m_StopTime: 1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
