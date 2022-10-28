@@ -5,11 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Node
+  - Enemy
+  - GhostNode
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - 1
   - Water
   - UI
   - 
@@ -43,5 +45,8 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: 1
-    uniqueID: 1133015755
+    uniqueID: 40366509
+    locked: 0
+  - name: 0
+    uniqueID: 3588096361
     locked: 0
